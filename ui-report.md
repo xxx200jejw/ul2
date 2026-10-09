@@ -1,6 +1,6 @@
 # UI test report – MiniShop
 
-**Team:**  Timur Glebov
+**Team:**  Timur Glebov ja Sergei Maksimov
 **Repository:** https://github.com/xxx200jejw/ul2 
 **Branch:** 
 
