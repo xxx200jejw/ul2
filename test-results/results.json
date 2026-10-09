@@ -1,0 +1,571 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/share/nvm/versions/node/v24.21.0/bin/node",
+      "/workspaces/ul2/node_modules/.bin/playwright",
+      "test",
+      "--project=ui"
+    ],
+    "configFile": "/workspaces/ul2/playwright.config.ts",
+    "rootDir": "/workspaces/ul2",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspaces/ul2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "/workspaces/ul2",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.api\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/ul2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "ui",
+        "name": "ui",
+        "testDir": "/workspaces/ul2",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.ui\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/workspaces/ul2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/workspaces/ul2",
+        "testIgnore": [
+          "/.*\\.(api|ui)\\.spec\\.ts/"
+        ],
+        "testMatch": [
+          "/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspaces/ul2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "ui",
+        "testDir": "/workspaces/ul2",
+        "snapshotDir": "/workspaces/ul2",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "trace": "on",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium",
+          "baseURL": "http://localhost:4000"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "ui"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "shop.ui.spec.ts",
+      "file": "shop.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-01 products page shows all six products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1260,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:32.115Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-01-products-page-shows-all-six-products-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-9dde83bf28a423b277a4",
+          "file": "shop.ui.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "UI-02 searching Mouse shows Wireless Mouse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 364,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:37.539Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-02-searching-Mouse-shows-Wireless-Mouse-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-e0e9c022601c35ee1a91",
+          "file": "shop.ui.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "UI-03 lowercase search finds Wireless Mouse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 246,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:37.947Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-03-lowercase-search-finds-Wireless-Mouse-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-661bb6700050619c1d07",
+          "file": "shop.ui.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "UI-04 adding a product updates cart count",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 318,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:38.242Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-04-adding-a-product-updates-cart-count-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-147edd7a73352a1ebd25",
+          "file": "shop.ui.spec.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "UI-05 cart shows one row and the correct total",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:38.616Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-05-cart-shows-one-row-and-the-correct-total-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-9585583e2c09eace1a17",
+          "file": "shop.ui.spec.ts",
+          "line": 38,
+          "column": 5
+        },
+        {
+          "title": "UI-06 quantity two doubles the cart total",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:39.058Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-06-quantity-two-doubles-the-cart-total-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-4aae79d4c31f08c225b8",
+          "file": "shop.ui.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "UI-07 removing an item empties the cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:39.541Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-07-removing-an-item-empties-the-cart-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-0bf581cf013431ae6c7f",
+          "file": "shop.ui.spec.ts",
+          "line": 58,
+          "column": 5
+        },
+        {
+          "title": "UI-08 empty checkout shows three validation errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 473,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:39.965Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-08-empty-checkout-shows-three-validation-errors-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-d892c54c0616a656e3e4",
+          "file": "shop.ui.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "UI-09 invalid email address is rejected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 532,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:40.471Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-09-invalid-email-address-is-rejected-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-0f27f811d1cd19425a2e",
+          "file": "shop.ui.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "UI-10 valid order shows confirmation and empties cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ui",
+              "projectName": "ui",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1368,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T07:10:41.061Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspaces/ul2/test-results/shop.ui-UI-10-valid-order--976f2-nfirmation-and-empties-cart-ui/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b3144ed7d7800fc5be2-f64a59f342097b2aa407",
+          "file": "shop.ui.spec.ts",
+          "line": 87,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T07:10:30.985Z",
+    "duration": 11611.664,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

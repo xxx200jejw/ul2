@@ -1,0 +1,74 @@
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="11.611664000000001">
+<testsuite name="shop.ui.spec.ts" timestamp="2026-10-09T07:10:31.580Z" hostname="ui" tests="10" failures="0" skipped="0" time="5.792" errors="0">
+<testcase name="UI-01 products page shows all six products" classname="shop.ui.spec.ts" time="1.26">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-01-products-page-shows-all-six-products-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-02 searching Mouse shows Wireless Mouse" classname="shop.ui.spec.ts" time="0.364">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-02-searching-Mouse-shows-Wireless-Mouse-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-03 lowercase search finds Wireless Mouse" classname="shop.ui.spec.ts" time="0.246">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-03-lowercase-search-finds-Wireless-Mouse-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-04 adding a product updates cart count" classname="shop.ui.spec.ts" time="0.318">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-04-adding-a-product-updates-cart-count-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-05 cart shows one row and the correct total" classname="shop.ui.spec.ts" time="0.388">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-05-cart-shows-one-row-and-the-correct-total-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-06 quantity two doubles the cart total" classname="shop.ui.spec.ts" time="0.449">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-06-quantity-two-doubles-the-cart-total-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-07 removing an item empties the cart" classname="shop.ui.spec.ts" time="0.394">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-07-removing-an-item-empties-the-cart-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-08 empty checkout shows three validation errors" classname="shop.ui.spec.ts" time="0.473">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-08-empty-checkout-shows-three-validation-errors-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-09 invalid email address is rejected" classname="shop.ui.spec.ts" time="0.532">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-09-invalid-email-address-is-rejected-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="UI-10 valid order shows confirmation and empties cart" classname="shop.ui.spec.ts" time="1.368">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|shop.ui-UI-10-valid-order--976f2-nfirmation-and-empties-cart-ui/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
